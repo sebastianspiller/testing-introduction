@@ -1,0 +1,22 @@
+{
+  "name": "testing-introduction",
+  "version": "1.0.0",
+  "description": "First steps to learn about testing with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianspiller/testing-introduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianspiller/testing-introduction/issues"
+  },
+  "homepage": "https://github.com/sebastianspiller/testing-introduction#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
