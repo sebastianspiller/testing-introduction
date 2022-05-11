@@ -57,7 +57,7 @@ npm install --save-dev jest
 
 - Jest looks for *.test.js, or change the pattern in a jest.config.js  
 
-- Next, look at sum.js and sum.test.js:
+- Next, look at sum.js and sum.test.js in ```jest/```:
 
 ---
 
@@ -78,8 +78,9 @@ This is a **matcher**, it will verify, if the expected value "matches" the recei
 
 Notice, that our tested function is called inside expected. So the *result* of sum() wil be used to compare it with *.toBe(3)*.
 
-Now run:
+Now run in ```jest/```:
 ```
+npm install
 npm test
 ```
 
@@ -96,8 +97,8 @@ npm test
 
 ---
 ```shell
+cd ..
 cd playwright-testing
-npm init
 npm install
 # install supported browsers
 npm test
